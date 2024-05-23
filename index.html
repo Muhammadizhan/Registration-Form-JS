@@ -4,14 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Regex in JS</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <form id="form">
-      <input type="text" id="username" placeholder="username" />
-      <input type="text" id="email" placeholder="email" />
-      <input type="password" id="password" placeholder="password" />
-      <button type="submit">submit</button>
-    </form>
+    <div class="container">
+      <h2>Registration Form</h2>
+      <form id="form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="username" />
+          <small>Error message</small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="password" />
+          <small>Error message</small>
+        </div>
+        <button type="submit">submit</button>
+      </form>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
